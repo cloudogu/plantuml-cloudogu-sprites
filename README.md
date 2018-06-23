@@ -1,0 +1,1 @@
+# plantuml-cloudogu-sprites
