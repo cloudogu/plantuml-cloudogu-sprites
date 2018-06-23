@@ -7,7 +7,6 @@
 ![Cockpit](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/cockpit.jpg "Cockpit")
 ![Nexus](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/nexus.jpg "Nexus")
 ![Nginx](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/nginx.jpg "Nginx")
-![Nginx](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/nginx.jpg "Nginx")
 ![OpenLDAP](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/openldap.jpg "OpenLDAP")
 ![PlantUML](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/plantuml.jpg "PlantUML")
 ![Postfix](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/postfix.jpg "Postfix")
