@@ -49,4 +49,11 @@ sprite $cloudogu [48x48/16] {
 000000000000000000000000000000000000000000000000
 000000000000000000000000000000000000000000000000
 }
+
+
+!define DEV_CLOUDOGU(_alias) ENTITY(rectangle,black,cloudogu,_alias,DEV CLOUDOGU)
+!define DEV_CLOUDOGU(_alias, _label) ENTITY(rectangle,black,cloudogu,_label, _alias,DEV CLOUDOGU)
+!define DEV_CLOUDOGU(_alias, _label, _shape) ENTITY(_shape,black,cloudogu,_label, _alias,DEV CLOUDOGU)
+!define DEV_CLOUDOGU(_alias, _label, _shape, _color) ENTITY(_shape,_color,cloudogu,_label, _alias,DEV CLOUDOGU)
+skinparam folderBackgroundColor<<DEV CLOUDOGU>> White
 @enduml
