@@ -9,38 +9,38 @@ This work was inspired by [tupadr3/plantuml-icon-font-sprites](https://github.co
 Include the sprites that you want to use either via path or url
 
 ```
-...
+[...]
 !include ../dogus/cloudogu.puml
 !includeurl https://raw.githubusercontent.com/cloudogu/plantuml-cloudogu-sprites/master/dogus/scm.puml
-...
+[...]
 ```
 
 You can define a constant for the URL
 
 ```
-...
+[...]
 !define CLOUDOGUURL https://raw.githubusercontent.com/cloudogu/plantuml-cloudogu-sprites/master
 !includeurl CLOUDOGUURL/dogus/smeagol.puml
-...
+[...]
 ```
 
 To use the Sprites you can include their name directly with <$name>
 
 ```
-...
+[...]
 node "Cloudogu Ecosystem" <<$cloudogu>> {
-...
+[...]
 ```
 
 or add one of the defined macros. Prefix can be either 'DOGU' or 'TOOL':
 
 ```
-...
+[...]
 <prefix>_<name>(alias)
 <prefix>_<name>(alias,label)
 <prefix>_<name>(alias,label,shape)
 <prefix>_<name>(alias,label,shape,color)
-...
+[...]
 ```
 
 ## Complete Example
@@ -98,7 +98,7 @@ jenkins -> k8s : Deploy
 
 ## List of all Dogu Sprites
 
-| Sprite | Dogu name | Macro | name |
+| Sprite | Dogu name | Macro | Name |
 |--------|-----------|-------|------|
 | ![CAS](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/cas.jpg "CAS") | CAS | DOGU_CAS | $cas |
 | ![Cloudogu](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/cloudogu.jpg "Cloudogu") | Cloudogu | DOGU_CLOUDOGU | $cloudogu |
@@ -117,7 +117,7 @@ jenkins -> k8s : Deploy
 
 ## List of all other tools sprites
 
-| Sprite | Tool name | Macro | name |
+| Sprite | Tool name | Macro | Name |
 |--------|-----------|-------|------|
 | ![Ansible](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/ansible.jpg "Ansible") | Ansible | TOOL_ANSIBLE | $ansible |
 | ![Docker](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/docker.jpg "Docker") | Docker | TOOL_DOCKER | $docker |
@@ -147,4 +147,4 @@ Want to talk to the Cloudogu team? Need help or support? There are several ways 
 * [Email hello@cloudogu.com](mailto:hello@cloudogu.com)
 
 ---
-&copy; 2017 Cloudogu GmbH - MADE WITH :heart: FOR DEV ADDICTS. [Legal notice / Impressum](https://cloudogu.com/imprint.html)
+&copy; 2018 Cloudogu GmbH - MADE WITH :heart: FOR DEV ADDICTS. [Legal notice / Impressum](https://cloudogu.com/imprint.html)
