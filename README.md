@@ -2,24 +2,32 @@
 
 This repository includes a set of logos from [Cloudogu EcoSystem](https://cloudogu.com) Dogus and other tools for using as [Sprites](http://plantuml.com/sprite) in [PlantUML](http://plantuml.com). BTW: Check out our Git based wiki [Smeagol](https://github.com/cloudogu/smeagol) which has rich PlantUML support!
 
-This work was inspired by [tupadr3/plantuml-icon-font-sprites](https://github.com/tupadr3/plantuml-icon-font-sprites).
+This work was inspired by [tupadr3/plantuml-icon-font-sprites](https://github.com/tupadr3/plantuml-icon-font-sprites). (Note: if you use their sprites in the same PlantUML diagram with sprites from this repo, you don't have to include the file commons.puml from their repo. The code is already in commons.puml of this repo.)
 
 ## Usage
 
-Include the sprites that you want to use either via path or url
+First include the file common.puml either via path or url. It also contains style definitions according to the Cloudogu CI
 
 ```
 [...]
-!include ../dogus/cloudogu.puml
-!includeurl https://raw.githubusercontent.com/cloudogu/plantuml-cloudogu-sprites/master/dogus/scm.puml
+!include ../common.puml
+!includeurl https://raw.githubusercontent.com/cloudogu/plantuml-cloudogu-sprites/master/common.puml
 [...]
 ```
-
-You can define a constant for the URL
+You can define a macro for the URL
 
 ```
 [...]
 !define CLOUDOGUURL https://raw.githubusercontent.com/cloudogu/plantuml-cloudogu-sprites/master
+!includeurl CLOUDOGUURL/commons.puml
+[...]
+```
+
+Then include the sprites that you want to use 
+
+```
+[...]
+!includeurl CLOUDOGUURL/dogus/scm.puml
 !includeurl CLOUDOGUURL/dogus/smeagol.puml
 [...]
 ```
@@ -28,7 +36,7 @@ To use the Sprites you can include their name directly with <$name>
 
 ```
 [...]
-node "Cloudogu Ecosystem" <<$cloudogu>> {
+node "Cloudogu Ecosystem" <$cloudogu> {
 [...]
 ```
 
@@ -55,24 +63,6 @@ or add one of the defined macros. Prefix can be either 'DOGU' or 'TOOL':
 !includeurl CLOUDOGUURL/dogus/smeagol.puml
 !includeurl CLOUDOGUURL/dogus/nexus.puml
 !includeurl CLOUDOGUURL/tools/k8s.puml
-
-
-skinparam arrow {
-  Color #000000
-}
-
-
-skinparam actor {
-  BackgroundColor #23a3dd
-  BorderColor #16688d
-  FontColor #000000
-}
-
-skinparam node {
-  BackgroundColor #23a3dd
-  BorderColor #16688d
-  FontColor #FFFFFF
-}
 
 node "Cloudogu Ecosystem" <<$cloudogu>> {
 	DEV_JENKINS(jenkins, Jenkins) #ffffff
