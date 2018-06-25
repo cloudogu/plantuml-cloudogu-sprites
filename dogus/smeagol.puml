@@ -53,7 +53,7 @@ sprite $smeagol [48x48/16] {
 
 !define DOGU_SMEAGOL(_alias) ENTITY(rectangle,black,smeagol,_alias,DOGU SMEAGOL)
 !define DOGU_SMEAGOL(_alias, _label) ENTITY(rectangle,black,smeagol,_label, _alias,DOGU SMEAGOL)
-!define DOGU_SMEAGOL(_alias, _label, _shape) ENTITY(_shape,black,smeagol,_label, _alias,DOGU SMEAGOL)
+!define DOGU_SMEAGOL(_alias, _label, _shape) ENTITY(_shape,black,smeagol,_label, _alias,DOGU_SMEAGOL)
 !define DOGU_SMEAGOL(_alias, _label, _shape, _color) ENTITY(_shape,_color,smeagol,_label, _alias,DOGU SMEAGOL)
 skinparam folderBackgroundColor<<DOGU SMEAGOL>> White
 @enduml
