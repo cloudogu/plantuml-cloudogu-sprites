@@ -54,10 +54,9 @@ or add one of the defined macros. Prefix can be either 'DOGU' or 'TOOL':
 ## Complete Example
 ```
 @startuml
-!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v1.0.0
 !define CLOUDOGUURL https://raw.githubusercontent.com/cloudogu/plantuml-cloudogu-sprites/master
-!includeurl ICONURL/common.puml
-!includeurl ICONURL/devicons/jenkins.puml
+!includeurl CLOUDOGUURL/common.puml
+!includeurl CLOUDOGUURL/dogus/jenkins.puml
 !includeurl CLOUDOGUURL/dogus/cloudogu.puml
 !includeurl CLOUDOGUURL/dogus/scm.puml
 !includeurl CLOUDOGUURL/dogus/smeagol.puml
