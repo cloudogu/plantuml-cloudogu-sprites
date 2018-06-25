@@ -229,4 +229,3 @@ skinparam Usecase {
   BorderColor BORDER_COLOR
   FontColor #FFFFFF
 }
-@enduml
