@@ -19,7 +19,7 @@ You can define a macro for the URL
 ```
 [...]
 !define CLOUDOGUURL https://raw.githubusercontent.com/cloudogu/plantuml-cloudogu-sprites/master
-!includeurl CLOUDOGUURL/commons.puml
+!includeurl CLOUDOGUURL/common.puml
 [...]
 ```
 
@@ -64,7 +64,7 @@ or add one of the defined macros. Prefix can be either 'DOGU' or 'TOOL':
 !includeurl CLOUDOGUURL/tools/k8s.puml
 
 node "Cloudogu Ecosystem" <<$cloudogu>> {
-	DEV_JENKINS(jenkins, Jenkins) #ffffff
+	DOGU_JENKINS(jenkins, Jenkins) #ffffff
 	DOGU_SCM(scm, SCM-Manager) #ffffff
 	DOGU_SMEAGOL(smeagol, Smeagol) #ffffff
 	DOGU_NEXUS(nexus,Nexus) #ffffff
