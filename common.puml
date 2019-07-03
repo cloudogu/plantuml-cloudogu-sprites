@@ -32,9 +32,10 @@ hide stereotype
 skinparam Activity {
   BackgroundColor PRIMARY_COLOR
   BorderColor BORDER_COLOR
+  FontColor FONT_COLOR
   DiamondBackgroundColor PRIMARY_COLOR
   DiamondBorderColor BORDER_COLOR
-  FontColor FONT_COLOR
+  DiamondFontColor FONT_COLOR
 }
 
 skinparam Actor {
