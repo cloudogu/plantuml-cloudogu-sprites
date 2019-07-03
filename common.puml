@@ -32,6 +32,8 @@ skinparam Activity {
   BackgroundColor PRIMARY_COLOR
   BorderColor BORDER_COLOR
   FontColor #000000
+  DiamondBackgroundColor PRIMARY_COLOR
+  DiamondBorderColor BORDER_COLOR
 }
 
 skinparam Actor {
