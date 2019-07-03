@@ -27,13 +27,14 @@ hide stereotype
 '
 !define PRIMARY_COLOR #23a3dd
 !define BORDER_COLOR #16688d
+!define FONT_COLOR #ffffff
 
 skinparam Activity {
   BackgroundColor PRIMARY_COLOR
   BorderColor BORDER_COLOR
-  FontColor #000000
   DiamondBackgroundColor PRIMARY_COLOR
   DiamondBorderColor BORDER_COLOR
+  FontColor FONT_COLOR
 }
 
 skinparam Actor {
