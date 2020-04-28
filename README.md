@@ -104,6 +104,8 @@ jenkins -> k8s : Deploy
 | ![Smeagol](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/smeagol.jpg "Smeagol") | Smeagol | DOGU_SMEAGOL | $smeagol |
 | ![Sonarqube](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/sonarqube.jpg "Sonarqube") | Sonarqube | DOGU_SONARQUBE | $sonarqube |
 | ![User management](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/usermgmt.jpg "User management") | User management | DOGU_USERMGMT | $usermgmt |
+| ![LDAP mapper](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/ldapmapper.png "LDAP mapper") | LDAP mapper | DOGU_LDAPMAPPER | $ldapmapper |
+| ![Jira](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/jira.png "Jira") | jira | DOGU_JIRA | $jira |
 
 ## List of all other tools sprites
 
