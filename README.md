@@ -101,7 +101,7 @@ jenkins -> k8s : Deploy
 | ![Redmine](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/redmine.jpg "Redmine") | Redmine | DOGU_REDMINE | $redmine |
 | ![Registrator](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/registrator.jpg "Registrator") | Registrator | DOGU_REGISTRATOR | $registrator |
 | ![SCM Manager](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/scm.jpg "SCM Manager") | SCM Manager | DOGU_SCM | $scm |
-| ![Smeagol](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/smeagol.jpg "Smeagol") | Smeagol | DOGU_SMEAGOL | $smeagol |
+| ![Smeagol](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/smeagol.png "Smeagol") | Smeagol | DOGU_SMEAGOL | $smeagol |
 | ![Sonarqube](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/sonarqube.jpg "Sonarqube") | Sonarqube | DOGU_SONARQUBE | $sonarqube |
 | ![User management](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/usermgmt.jpg "User management") | User management | DOGU_USERMGMT | $usermgmt |
 | ![LDAP mapper](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/ldapmapper.png "LDAP mapper") | LDAP mapper | DOGU_LDAPMAPPER | $ldapmapper |
