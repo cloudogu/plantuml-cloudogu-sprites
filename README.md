@@ -91,7 +91,7 @@ jenkins -> k8s : Deploy
 |--------|-----------|-------|------|
 | ![CAS](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/cas.jpg "CAS") | CAS | DOGU_CAS | $cas |
 | ![Cloudogu](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/cloudogu.jpg "Cloudogu") | Cloudogu | DOGU_CLOUDOGU | $cloudogu |
-| ![Cockpit](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/cockpit.jpg "Cockpit") | Cockpit | DOGU_COCKPIT | $cockpit |
+| ![Cockpit](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/cockpit.png "Cockpit") | Cockpit | DOGU_COCKPIT | $cockpit |
 | ![Jenkins](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/jenkins.jpg "Jenkins") | Jenkins | DOGU_JENKINS | $jenkins |
 | ![Nexus](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/nexus.jpg "Nexus") | Nexus | DOGU_NEXUS | $nexus |
 | ![Nginx](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/nginx.jpg "Nginx") | Nginx | DOGU_NGINX | $nginx |
