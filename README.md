@@ -98,6 +98,7 @@ jenkins -> k8s : Deploy
 | ![OpenLDAP](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/openldap.jpg "OpenLDAP") | OpenLDAP | DOGU_OPENLDAP | $openldap |
 | ![PlantUML](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/plantuml.jpg "PlantUML") | PlantUML | DOGU_PLANTUML | $plantuml |
 | ![Postfix](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/postfix.jpg "Postfix") | Postfix | DOGU_POSTFIX | $postfix |
+| ![PostgreSQL](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/postgresql.png "PostgreSQL") | PostgreSQL | DOGU_POSTGRESQL | $postgresql |
 | ![Redmine](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/redmine.jpg "Redmine") | Redmine | DOGU_REDMINE | $redmine |
 | ![Registrator](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/registrator.jpg "Registrator") | Registrator | DOGU_REGISTRATOR | $registrator |
 | ![SCM Manager](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/scm.jpg "SCM Manager") | SCM Manager | DOGU_SCM | $scm |
