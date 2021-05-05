@@ -131,6 +131,29 @@ jenkins -> k8s : Deploy
 | ![Virtualbox](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/virtualbox.jpg "Virtualbox") | Virtualbox | TOOL_VIRTUALBOX | $virtualbox |
 | ![VMWare](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/vmware.jpg "VMWare") | VMWare | TOOL_VMWARE | $vmware |
 
+## Adding new sprites
+
+Only a few things are needed to create new sprites:
+
+1. a 64x64 pixel bitmap image
+1. the [plantuml.jar](https://sourceforge.net/projects/plantuml/files/plantuml.jar/download)
+1. a working Java installation
+
+Images work best when they have a white background (that is: no alpha/transparency channel is visible) and show a good contrast.
+
+### Steps
+
+1. prepare the input image
+1. encode the input image to a Plant UML sprit`
+   - `java -jar /path/to/plantuml.jar -encodesprite 16 yourSprite.png > yourSprite.puml`
+1. optional, but it just would be nice:
+   1. harmonize sprite file to match existing ones
+      - add @startuml / @enduml tags
+      - add ENTITY stuff (see the other .puml files)
+   1. Share here
+
+---
+
 All trademarks, product names and logos appearing above are the property of their respective owners, including in some instances Cloudogu GmbH. Any rights not expressly granted herein are reserved.
 
 ---
