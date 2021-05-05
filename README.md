@@ -107,6 +107,11 @@ jenkins -> k8s : Deploy
 | ![User management](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/usermgmt.png "User management") | User management | DOGU_USERMGMT | $usermgmt |
 | ![LDAP mapper](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/ldapmapper.png "LDAP mapper") | LDAP mapper | DOGU_LDAPMAPPER | $ldapmapper |
 | ![Jira](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/jira.png "Jira") | jira | DOGU_JIRA | $jira |
+| ![Confluence](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/confluence.png "Confluence") | confluence | DOGU_CONFLUENCE | $confluence |
+| ![Backup](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/backup.png "Backup") | backup | DOGU_BACKUP | $backup |
+| ![Easyredmine](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/easyredmine.png "EasyRedmine") | easyredmine | DOGU_EASYREDMINE | $easyredmine |
+| ![Portainer](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/portainer.png "Portainer") | portainer | DOGU_PORTAINER | $portainer |
+| ![Swaggerui](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/swaggerui.png "Swagger-UI") | swaggerui | DOGU_SWAGGERUI | $swaggerui |
 
 ## List of all other tools sprites
 
