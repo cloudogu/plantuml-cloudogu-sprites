@@ -104,7 +104,7 @@ jenkins -> k8s : Deploy
 | ![SCM Manager](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/scm.jpg "SCM Manager") | SCM Manager | DOGU_SCM | $scm |
 | ![Smeagol](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/smeagol.png "Smeagol") | Smeagol | DOGU_SMEAGOL | $smeagol |
 | ![Sonarqube](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/sonarqube.jpg "Sonarqube") | Sonarqube | DOGU_SONARQUBE | $sonarqube |
-| ![User management](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/usermgmt.png "User management") | User management | DOGU_USERMGMT | $usermgmt |
+| ![User management](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/usermgt.png "User management") | User management | DOGU_USERMGMT | $usermgmt |
 | ![LDAP mapper](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/ldapmapper.png "LDAP mapper") | LDAP mapper | DOGU_LDAPMAPPER | $ldapmapper |
 | ![Jira](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/jira.png "Jira") | jira | DOGU_JIRA | $jira |
 | ![Confluence](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/confluence.png "Confluence") | confluence | DOGU_CONFLUENCE | $confluence |
