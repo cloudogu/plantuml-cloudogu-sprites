@@ -139,7 +139,7 @@ jenkins -> k8s : Deploy
 
 Only a few things are needed to create new sprites:
 
-1. a 64x64 pixel bitmap image
+1. a 48x48 pixel bitmap image
 1. the [plantuml.jar](https://sourceforge.net/projects/plantuml/files/plantuml.jar/download)
 1. a working Java installation
 
