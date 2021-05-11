@@ -118,14 +118,18 @@ jenkins -> k8s : Deploy
 | Sprite | Tool name | Macro | Name |
 |--------|-----------|-------|------|
 | ![Ansible](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/ansible.jpg "Ansible") | Ansible | TOOL_ANSIBLE | $ansible |
+| ![Cucumber](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/cucumber.png "Cucumber") | Cucumber | TOOL_CUCUMBER | $cucumber |
+| ![Cypress](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/cypress.png "Cypress") | Cypress | TOOL_CYPRESS | $cypress |
 | ![Docker](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/docker.jpg "Docker") | Docker | TOOL_DOCKER | $docker |
 | ![Elastic Search](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/elastic.jpg "Elastic Search") | Elastic Search | TOOL_ELASTIC | $elastic |
 | ![Etcd](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/etcd.jpg "Etcd") | Etcd | TOOL_ETCD | $etcd |
 | ![Grafana](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/grafana.jpg "Grafana") | Grafana | TOOL_GRAFANA | $grafana |
+| ![Gatsby](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/gatsby.png "Gatsby") | Gatsby | TOOL_GATSBY | $gatsby |
 | ![JUnit](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/junit.jpg "JUnit") | JUnit | TOOL_JUNIT | $junit |
 | ![Kubernetes](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/k8s.jpg "Kubernetes") | Kubernetes | TOOL_K8S | $k8s |
 | ![Prometheus](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/prometheus.jpg "Prometheus") | Prometheus | TOOL_PROMETHEUS | $prometheus |
 | ![QEmu](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/qemu.jpg "QEmu") | QEmu | TOOL_QEMU | $qemu |
+| ![React](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/react.png "React") | React | TOOL_REACT | $react |
 | ![Terraform](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/terraform.jpg "Terraform") | Terraform | TOOL_TERRAFORM | $terraform |
 | ![Ubuntu](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/ubuntu.jpg "Ubuntu") | Ubuntu | TOOL_UBUNTU | $ubuntu |
 | ![Virtualbox](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/virtualbox.jpg "Virtualbox") | Virtualbox | TOOL_VIRTUALBOX | $virtualbox |
@@ -135,7 +139,7 @@ jenkins -> k8s : Deploy
 
 Only a few things are needed to create new sprites:
 
-1. a 64x64 pixel bitmap image
+1. a 48x48 pixel bitmap image
 1. the [plantuml.jar](https://sourceforge.net/projects/plantuml/files/plantuml.jar/download)
 1. a working Java installation
 
