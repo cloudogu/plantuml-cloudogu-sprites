@@ -123,6 +123,7 @@ jenkins -> k8s : Deploy
 | ![Docker](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/docker.jpg "Docker") | Docker | TOOL_DOCKER | $docker |
 | ![Elastic Search](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/elastic.jpg "Elastic Search") | Elastic Search | TOOL_ELASTIC | $elastic |
 | ![Etcd](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/etcd.jpg "Etcd") | Etcd | TOOL_ETCD | $etcd |
+| ![fail2ban](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/fail2ban.png "fail2ban") | fail2ban | TOOL_FAIL2BAN | $fail2ban |
 | ![Grafana](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/grafana.jpg "Grafana") | Grafana | TOOL_GRAFANA | $grafana |
 | ![Gatsby](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/gatsby.png "Gatsby") | Gatsby | TOOL_GATSBY | $gatsby |
 | ![JUnit](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/junit.jpg "JUnit") | JUnit | TOOL_JUNIT | $junit |
