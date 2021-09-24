@@ -112,6 +112,7 @@ jenkins -> k8s : Deploy
 | ![Easyredmine](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/easyredmine.png "EasyRedmine") | easyredmine | DOGU_EASYREDMINE | $easyredmine |
 | ![Portainer](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/portainer.png "Portainer") | portainer | DOGU_PORTAINER | $portainer |
 | ![Swaggerui](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/swaggerui.png "Swagger-UI") | swaggerui | DOGU_SWAGGERUI | $swaggerui |
+| ![AdminDogu](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/dogus/admin.png "Admin Dogu") | admin | DOGU_ADMIN | $admin |
 
 ## List of all other tools sprites
 
