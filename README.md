@@ -127,6 +127,7 @@ jenkins -> k8s : Deploy
 | ![fail2ban](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/fail2ban.png "fail2ban") | fail2ban | TOOL_FAIL2BAN | $fail2ban |
 | ![Grafana](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/grafana.jpg "Grafana") | Grafana | TOOL_GRAFANA | $grafana |
 | ![Gatsby](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/gatsby.png "Gatsby") | Gatsby | TOOL_GATSBY | $gatsby |
+| ![Helm](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/helm.png "Helm") | Helm | TOOL_HELM | $helm |
 | ![JUnit](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/junit.jpg "JUnit") | JUnit | TOOL_JUNIT | $junit |
 | ![Kubernetes](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/k8s.jpg "Kubernetes") | Kubernetes | TOOL_K8S | $k8s |
 | ![Prometheus](https://github.com/cloudogu/plantuml-cloudogu-sprites/raw/master/tools/prometheus.jpg "Prometheus") | Prometheus | TOOL_PROMETHEUS | $prometheus |
